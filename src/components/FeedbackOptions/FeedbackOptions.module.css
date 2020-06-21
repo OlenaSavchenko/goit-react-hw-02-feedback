@@ -1,0 +1,15 @@
+.btn {
+  margin-left: 10px;
+  padding: 2px 5px;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn::first-letter {
+  text-transform: uppercase;
+}
+.btn:hover {
+  background-color: lightblue;
+}
